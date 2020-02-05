@@ -76,7 +76,7 @@ div.container {
 }
 
 #btnDelete {
-  background-color: red;
+  background-color: yellow;
   float: right;
 }
 

@@ -37,7 +37,7 @@ async function loadPostsCollection() {
      return client.db('cw2-backend').collection('posts');
  }
 
-// testing testing
+
 
 
 module.exports = router;
