@@ -3,13 +3,13 @@
     <h1>Add new Course</h1>
     <div class="create-post">
       <label for="create-post">Course Name: </label>
-      <input type="text" id="create-post" v-model="course" placeholder="Enter name of  course">
+      <input type="text" id="create-post" v-model="course" placeholder="Enter name of course">
       <br>
       <label for="create-post">Location: </label>
       <input type="text" id="enter-location" v-model="location" placeholder="Enter the location">
       <br>
       <label for="create-post">Price: </label>
-      <input type="text" id="enter-price" v-model="price" placeholder="Enter the price">
+      <input type="text" id="enter-price" v-model="price" placeholder="Price of course">
       <br>
       <button id="btnPost" v-on:click="createPost">Post</button>
     </div>  
@@ -68,7 +68,7 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- CSS for this component only -->
 <style scoped>
 div.container {
   max-width: 90%;
@@ -76,7 +76,7 @@ div.container {
 }
 
 #btnDelete {
-  background-color: yellow;
+  background-color: red;
   float: right;
 }
 

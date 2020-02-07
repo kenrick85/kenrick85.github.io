@@ -30,7 +30,7 @@ router.delete('/:id', async (req,res) => {
 });
 
 async function loadPostsCollection() {
-    const client = await mongodb.MongoClient.connect ('mongodb+srv://kenrick85:ricknek@cw2-backend-omomz.mongodb.net/test?retryWrites=true&w=majority', { //('mongodb://127.0.0.1:27017', {
+    const client = await mongodb.MongoClient.connect ('mongodb+srv://kenrick85:ricknek@cw2-backend-omomz.mongodb.net/test?retryWrites=true&w=majority', { 
          useNewUrlParser: true,
          useUnifiedTopology: true
      });
